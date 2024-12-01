@@ -1,0 +1,298 @@
+
+<html lang="en">
+<head>
+<!--VERY IMPORTANT every grid goes into container -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap Book</title>
+<style>
+section{
+padding: 60px 0;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-bottom">
+<div class="container-fluid">
+<a href="#" class="navbar-brand">Navbar</a>
+<button class="navbar-toggler" type="button"></button>
+</div>
+</nav>
+<nav class="navbar navbar-expand-md">
+ <div class="container-xxl">
+  <a href="#intro" class="navbar-brand">
+  <span class="text-secondary fw-bold">
+   <i class="bi bi-book-half"></i>
+   Bootstrap - the Book
+  </span>
+ </a>
+ <button class="navbar-toggler "type="button" data-bs-toggle="collapse"
+ data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="flase"
+ aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+ </button>
+ <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="#">Navbar</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+     </li>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown </a>
+      <ul class="dropdown-menu">
+       <li><a class="dropdown-item" href="#">Action</a></li>
+       <li><a class="dropdown-item" href="#">Another action</a></li>
+       <li><hr class="dropdown-divider"></li>
+       <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+     </li>
+     <li class="nav-item ms-2 d-none d-md-mdinline">
+      <a href="#pricing" class="nav-link">Buy now</a>
+     </li>
+    </ul>
+<form class="d-flex" role="search">
+ <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+ <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+</div>
+</div>
+</nav>
+</div>
+</nav>
+<section id="intro">
+ <div class="container-lg">
+  <div class="row justify-content-center align-items-center">
+   <div class="col-md-5 text-center text-md-start">
+    <h1>
+     <div class="display-3 ">Black-Belt</div>
+     <div class="display-5 text-muted">Your coding skill</div>
+    </h1>
+    <p class="lead my-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi, tenetur repudiandae atque officiis voluptatem sapiente amet iure eos voluptas tempora. Laudantium, excepturi sapiente unde beatae voluptatum molestias dolorum ad!</p>
+    <a href="#pricing" class="btn btn-secondary btn-shadow-lg">Buy Now</a>
+   </div>
+   <div class="col-md-5 text-center d-none d-md-block">
+   <img class="img-fluid" src="/bs/images.png" alt="Ebook">
+   </div>
+  </div>
+ </div>
+</section>
+<section id="pricing" class="light-text mt-5">
+ <div class="container-lg">
+  <div class="text-center">
+   <h2>Pricing Plans</h2>
+   <p class="text-muted lead">Choose a pricing plan to suit you</p>
+  </div>
+  <div class="row my-5 align-items-center justify-content-center">
+   <div class="col-8 col-lg-4 col-xl-3" >
+    <div class="card border-0">
+     <div class="card-body text-center py-4">
+      <h4 class="card-title ">Starter Edition</h4>
+      <p class="lead card-subtitle ">eBook download online</p>
+      <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+      <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit placeat dolorum, perspiciatis ea commodi earum itaque, quos alias vero libero rem dicta? Perspiciatis earum vel tenetur aut obcaecati totam voluptates?</p>
+      <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+</div>
+   </div>
+</div>
+<div class="col-9 col-lg-4">
+ <div class="card border-primary border-2">
+  <div class="card-header text-center text-primary">Most Popular</div>
+  <div class="card-body text-center py-5">
+   <h4 class="card-title">Complete Edition</h4>
+   <p class="lead card-subtitle">eBook download & all updates </p>
+   <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+   <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit placeat dolorum, perspiciatis ea commodi earum itaque, quos alias vero libero rem dicta? Perspiciatis earum vel tenetur aut obcaecati totam voluptates?</p>
+   <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+  </div>
+ </div>
+</div>
+<div class="col-8 col-lg-4 col-xl-3" >
+    <div class="card border-0">
+     <div class="card-body text-center py-4">
+      <h4 class="card-title ">Ultimate Edition</h4>
+      <p class="lead card-subtitle ">download updates & extras </p>
+      <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+      <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit placeat dolorum, perspiciatis ea commodi earum itaque, quos alias vero libero rem dicta? Perspiciatis earum vel tenetur aut obcaecati totam voluptates?</p>
+      <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+</div>
+   </div>
+</div>
+</div>
+</div>
+
+</section>
+<section id="topics">
+<div class="container-md">
+<div class="text-center">
+<h2>Inside the Book...</h2>
+<p class="lead text-muted">A quick glance at topics you'll learn</p>
+</div>
+<div class="row my-5 g-5 justify-content-around align-items-center">
+<div class="col-6 col-lg-4">
+<img src="/bs/download.jpg" class="img-fluid" alt="ebook">
+</div>
+<div class="col-lg-6">
+<div class="accordion" id="chapters">
+<div class="accordion-item">
+<h2 class="accordion-header" id="heading-1">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+Chapter 1 - Your First Web Page
+</button>
+</h2>
+<div id="chapter-1" class="accordion-collapse collapse show"
+aria-labelledby="heading-1" data-bs-parent="#chapters">
+<div class="accordion-body">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et totam modi consequatur quos itaque quam, doloremque tempora possimus! Exercitationem suscipit doloremque odio modi illum. Odio numquam quibusdam inventore non.</p>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="heading-1">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+Chapter 2 - Maintaining CSS
+</button>
+</h2>
+<div id="chapter-2" class="accordion-collapse collapse show"
+aria-labeledby="heading-2" data-bs-parent="#chapters">
+<div class="accordion-body">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et totam modi consequatur quos itaque quam, doloremque tempora possimus! Exercitationem suscipit doloremque odio modi illum. Odio numquam quibusdam inventore non.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="reviews" class="bg-light">
+<div class="container-lg">
+<div class="text-center" >
+<h2><i class="bi bi-stars"></i>Book Reviews</h2>
+<p class="lead">what my students have said about the book...</p>
+</div>
+<div class="row justify-content-center my-5">
+<div class="col-lg-8">
+<div class="list-group">
+<div class="list-group-item py-3">
+<div class="pb-2">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+</div>
+<h5 class="mb-1">A must buy for every aspiring web dev</h5>
+<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi architecto quisquam consequuntur accusantium tempore vero quidem ea laboriosam, cupiditate expedita doloribus possimus eius tempora placeat magni? Quod similique aut ex.</p>
+<small>Review by mario</small>
+</div>
+</div>
+<div class="list-group">
+<div class="list-group-item py-3">
+<div class="pb-2">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+</div>
+<h5 class="mb-1">A must buy for every aspiring web dev</h5>
+<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi architecto quisquam consequuntur accusantium tempore vero quidem ea laboriosam, cupiditate expedita doloribus possimus eius tempora placeat magni? Quod similique aut ex.</p>
+<small>Review by mario</small>
+</div>
+</div>
+<div class="list-group">
+<div class="list-group-item py-3">
+<div class="pb-2">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+</div>
+<h5 class="mb-1">A must buy for every aspiring web dev</h5>
+<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi architecto quisquam consequuntur accusantium tempore vero quidem ea laboriosam, cupiditate expedita doloribus possimus eius tempora placeat magni? Quod similique aut ex.</p>
+<small>Review by mario</small>
+</div>
+</div>
+<div class="list-group">
+<div class="list-group-item py-3">
+<div class="pb-2">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-half"></i>
+</div>
+<h5 class="mb-1">A must buy for every aspiring web dev</h5>
+<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi architecto quisquam consequuntur accusantium tempore vero quidem ea laboriosam, cupiditate expedita doloribus possimus eius tempora placeat magni? Quod similique aut ex.</p>
+<small>Review by mario</small>
+</div>
+</div>
+<div class="list-group">
+<div class="list-group-item py-3">
+<div class="pb-2">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+</div>
+<h5 class="mb-1">A must buy for every aspiring web dev</h5>
+<p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi architecto quisquam consequuntur accusantium tempore vero quidem ea laboriosam, cupiditate expedita doloribus possimus eius tempora placeat magni? Quod similique aut ex.</p>
+<small>Review by mario</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact">
+<div class="container-lg">
+<div class="text-center">
+<h2>Get in Touch</h2>
+<p class="lead">Questions to Ask? Fill out the form to contact me directly...</p>
+<div class="row justify-content-center my-5">
+<div class="col-lg-6">
+<form >
+<label for="email" class="form-label">Email address</label>
+<div class="mb-4 input-group">
+<span class="input-group-text"></span>
+<input type="email" class="form-control " id="email" placeholder="e.g..Rahaf.com">
+</div>
+<label for="name" class="form-label">Name:</label>
+<input type="text" class="form-control" id="name" placeholder="e.g. Rahaf">
+<label for="subject" class="form-label">What is your question about?</label>
+<select name="" id="subject" class="form-select">
+<option value="pricing" selected>Pricing query</option>
+<option value="content">Content query</option>
+<option value="other">Other query</option>
+</select>
+</form>
+<div class="form-floating mb-4 mt-5" >
+<textarea name="" id="query" class="form-control" style: height="140px"></textarea>
+<label for="query" class="form-label">Your query..</label>
+</div>
+<div class="text-center mb-4">
+<button type="submit" class="btn btn-secondary">Submit</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
